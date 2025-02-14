@@ -1,7 +1,7 @@
 package models
 import "gorm.io/gorm"
 
-type Todo structs {
+type Todo struct {
 	gorm.Model
 	Content string
 	Status bool
